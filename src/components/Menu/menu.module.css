@@ -1,0 +1,65 @@
+.menuPage{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: #FFFCF4;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 1170px;
+    height: 164px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 170px;
+    height: 70px;
+}
+.nav ul{
+    width: 590px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+}
+
+.sign, .login{
+    display: flex;
+    height: 36px;
+    width: 81px;
+    left: 497px;
+    top: 0px;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    background: rgba(208, 216, 255, 1);
+}
+.blockOne {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockTwo {
+    margin-top: 62px;
+    height:696px;
+    /* width: 1440px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 1 em;
+}

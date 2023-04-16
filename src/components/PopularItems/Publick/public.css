@@ -1,0 +1,155 @@
+.public {
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.blockThree {
+    margin-top: 62px;
+    height:696px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content:space-evenly;
+    grid-column-gap: 30px; */
+    grid-row-gap: 1 em;
+    padding-left: 30px;
+}
+
+
+.nav {
+    display: flex;
+    height: 122px;
+    width: 1170px;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.nav_logo {
+    width: 270px;
+    height: 122px;
+    background-color:black;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+
+.nav_foto {
+    height: 88px;
+    width: 192px;
+}
+
+.nav_search {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_title {
+    height: 19px;
+    width: 275px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.search_foto{
+    width: 20px;
+    height: 20px;
+}
+
+.nav_icons {
+    width: 113px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    width: 162px;
+    justify-content:space-between
+}
+
+.user_foto {
+    height:64px;
+    width: 64px;
+}
+
+.public {
+    display: flex;
+}
+
+.publick_items {
+    display: flex;
+    width: 1170px;
+    height: 2000px;
+    justify-content: space-between;
+}
+.popularitems_title {
+    height: 700px;
+    width: 270px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.blue {
+    width: 270px;
+    height: 370px;
+    background-image: url(../../img/blue.png);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+.kgzdaam {
+    width: 163px;
+    height: 39px;
+}
+
+.nursultan {
+    width: 870px;
+    display: flex;
+    padding-left: 30px;
+    margin-top: 36px;
+    justify-content: space-between;
+}
+
+.star {
+    width: 642px;
+    height:220px;
+    background: #B9A374;
+    border-radius: 6px;
+}
+
+.shopping_details {
+    width: 200px;
+    height:220px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices {
+    display: flex;
+    width: 160px;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.dollar {
+    height:24px;
+    width: 24px;
+}

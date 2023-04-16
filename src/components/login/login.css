@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100%;
+}
+
+
+.logo-holder{
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./../img/BC.png);
+    font-family:'Open sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-holder form{
+    width: 570px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.38);
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+}
+
+/* .main{
+   width: 1200px;
+   height:1000px;
+
+} */
+.logo {
+    width: 61px;
+    height: 96px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 66px;
+    padding-bottom: 54px;
+
+
+}
+
+
+/* .form{
+    margin-top: 1rem; 
+    display: flex; 
+    flex-direction: column;
+    flex: direc 80%; 
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+
+ }  */
+.input{
+    display: flex; 
+    align-items: center;
+    text-align: center;
+    background-color:rgba(255, 255, 255 , 0.2) ;
+    border: none;
+    color: white;
+    padding: 0.5rem;
+    display: inline-block;
+    width: 370px;
+    height:32px;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+   
+    
+} 
+.input::placeholder{
+    color: #bebebe;
+}
+.input::focus{
+    border:none;
+    outline:none;
+
+}
+.checkbox{
+    font-weight: 300;
+    margin-top: 0.3rem;
+}
+
+/* .sign-in-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.sign-in{
+    background-color:#2ecc71;
+    text-align: center;
+    width: 220px;
+    padding-top:0.3rem;
+    border-radius: 5px;
+
+}
+.sign-in-button p{
+    margin-top: 2rem;
+    font-weight: 300;
+
+} 
+.sign-in-button span{
+    color: #2ecc71;
+} */
